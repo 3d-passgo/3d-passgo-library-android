@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="tab_clear">제거</string>
+    <string name="tab_cancel">취소</string>
+    <string name="tab_confirm">확정</string>
+    <string name="tab_continue"> 계속</string>
+    <string name="faq">흔히 생기는 문제</string>
+    <string name="LOCK_TYPE_PATTERN_SIZE_HELP">바둑판 사이즈 선택</string>
+    <string name="SET_YOUR_PASSGO">바둑 비밀번호 설치</string>
+    <string name="SET_BACKUP_PIN">예비용 데이터 비밀번호(PIN) 설치</string>
+    <string name="CONFIRM_BACKUP_PIN">데이터 비밀번호 확인(PIN)</string>
+    <string name="DRAW_PATTERN_HELP">바둑비밀번호 그리기</string>
+    <string name="LOGIN_PATTERN_HELP_ERROR">바둑 비밀번호 정확하지 않음, 재 시도할것</string>
+    <string name="LOGIN_PATTERN_HELP_CONTINUE">바둑 비밀번호 정확하지 않음, 계속하여 입력할것</string>
+    <string name="LOGIN_PATTERN_PIN_HELP_ERROR">데이터 비밀번호(PIN)정확하지 않음, 재시도 할것</string>
+    <string name="DRAW_PATTERN_HELP_ERROR">바둑 비밀번호 매칭되지 않음, 재할것</string>
+    <string name="DRAW_PATTERN_HELP_II">바둑 비밀번호 다시 그리기</string>
+    <string name="DRAW_PATTERN_HELP_SUCCESS">귀하의 바둑비밀번호 설치</string>
+    <string name="DRAW_PATTERN_PIN_HELP">데이터 비밀번호(PIN) 입력</string>
+    <string name="DRAW_PATTERN_PIN_HELP_ERROR">데이터 비밀번호(PIN) 매칭되지 않음, 재시도 할것</string>
+    <string name="DRAW_PATTERN_PIN_HELP_ERROR_TOAST">빈 데이터 비밀번호(PIN)</string>
+    <string name="DRAW_PATTERN_PIN_HELP_II">데이터 비밀번호(PIN)확인</string>
+    <string name="DRAW_PATTERN_PIN_SUBTITLE">데이터 비밀번호(PIN)입력</string>
+    <string name="DRAW_PATTERN_PIN_TITLE">데이터 비밀번호(PIN)설치</string>
+    <string name="DRAW_PATTERN_TITLE">바둑비밀번호 입력</string>
+    <string name="INPUT_PIN_SUBTITLE">데이터 비밀번호(PIN)입력</string>
+    <string name="INPUT_PIN_LESS_THAN_FHOUR_TOAST">데이터 비밀번호(PIN)최저 4자리수자</string>
+    <string name="PassGo_changed">바둑비밀번호 이미 수정</string>
+    <string name="PIN_changed">데이터 비밀번호(PIN) 이미 수정</string>
+    <string name="arrow"> → </string>
+    <string name="change_to_default_question">양식이 전부 디폴트 설치로 리턴할것인가요?</string>
+    <string name="PATTERN_LINE_THICKNESS_THICK">굵음</string>
+    <string name="PATTERN_LINE_THICKNESS_THIN">가늠</string>
+    <string name="delay">다차 입력오류, 지연</string>
+    <string name="minute">분</string>
+    <string name="minutes">분</string>
+    <string name="seconds">초</string>
+    <string name="tab_default">표준</string>
+    <string name="tab_back">돌아가</string>
+    <string name="style_changed">스타일 이 저장되었습니다</string>
+    <string name="style_changed_to_default">스타일은 모든기본 값으로 다시 설정 한</string>
+    <string name="pallet_title">스타일</string>
+    <string name="hide_passgo">숨기기 패턴</string>
+    <string name="show_circles">\u0020\u0020\u0020\u0020쇼 원\u0020\u0020\u0020\u0020</string>
+    <string name="show_grid">쇼 그리드</string>
+    <string name="passgo_line">선</string>
+    <string name="passgo_dot">원</string>
+    <string name="grid">\u0020\u0020\u0020\u0020그리드\u0020\u0020\u0020\u0020</string>
+    <string name="grid_circle">원</string>
+    <string name="background">배경</string>
+    <string name="cancel">취소</string>
+    <string name="save">저장</string>
+
+
+</resources>

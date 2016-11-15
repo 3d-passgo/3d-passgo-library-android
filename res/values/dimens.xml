@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">12.0dip</dimen>
+    <dimen name="activity_vertical_margin">12.0dip</dimen>
+
+    <dimen name="faq_q">18sp</dimen>
+    <dimen name="faq_a">15sp</dimen>
+
+
+</resources>

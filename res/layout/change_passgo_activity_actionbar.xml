@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/home_launcher_select_actionbar_RELATIVELAYOUT" 
+    android:background="@color/Light_Blue" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" 
+        android:id="@+id/lockscreen_pattern_draw_actionbar_nextselector_RELATIVELAYOUT"
+        android:clickable="true"
+         android:layout_width="fill_parent" 
+         android:layout_height="fill_parent" 
+         android:layout_alignParentTop="true" 
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true">
+
+        <TextView android:textAppearance="?android:textAppearanceMedium" 
+            android:textSize="20.0sp" 
+            android:textColor="#ffffffff" 
+            android:id="@+id/home_launcher_select_actionbar_set_TEXTVIEW" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:text="@string/SET_YOUR_PASSGO" 
+            android:gravity="center"
+             />
+        
+         <!--<TextView android:textAppearance="?android:textAppearanceMedium" -->
+            <!--android:textSize="20.0sp" -->
+            <!--android:textColor="#ffffffff" -->
+            <!--android:id="@+id/home_launcher_select_actionbar_confirm_TEXTVIEW" -->
+            <!--android:layout_width="wrap_content" -->
+            <!--android:layout_height="wrap_content" -->
+            <!--android:text="@string/CONFIRM_YOUR_PASSGO" -->
+            <!--android:gravity="center"-->
+             <!--/>-->
+    </RelativeLayout>
+
+</RelativeLayout>

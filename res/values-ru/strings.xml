@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation,MissingTranslation">
+
+
+    <string name="tab_clear">Очистить</string>
+    <string name="tab_cancel">Отменить</string>
+    <string name="tab_confirm">Подтвердить</string>
+    <string name="tab_continue">Продолжить</string>
+    <string name="faq">FAQ</string>
+    <string name="LOCK_TYPE_PATTERN_SIZE_HELP">Выберите размер сетки</string>
+    <string name="SET_YOUR_PASSGO">Установить ваш PassGo</string>
+    <string name="SET_BACKUP_PIN">Установить ПИН восстановления</string>
+    <string name="CONFIRM_BACKUP_PIN">Подвердить ПИН восстановления</string>
+    <string name="DRAW_PATTERN_HELP">Нарисовать PassGo</string>
+    <string name="LOGIN_PATTERN_HELP_ERROR">Неверный PassGo, попробуйте снова</string>
+    <string name="LOGIN_PATTERN_HELP_CONTINUE">Неверный PassGo, продолжить</string>
+    <string name="LOGIN_PATTERN_PIN_HELP_ERROR">Неверный ПИН, попробуйте снова</string>
+    <string name="DRAW_PATTERN_HELP_ERROR">PassGo не совпадает, попробуйте снова</string>
+    <string name="DRAW_PATTERN_HELP_II">Нарисовать PassGo снова, чтобы подтвердить</string>
+    <string name="DRAW_PATTERN_HELP_SUCCESS">Ваш PassGo будет сохранен как</string>
+    <string name="DRAW_PATTERN_PIN_HELP">Установить ПИН восстановления</string>
+    <string name="DRAW_PATTERN_PIN_HELP_ERROR">ПИНы не совпадают, попробуйте снова</string>
+    <string name="DRAW_PATTERN_PIN_HELP_ERROR_TOAST">ПИН не введен</string>
+    <string name="DRAW_PATTERN_PIN_HELP_II">Подтвердить ПИН</string>
+    <string name="DRAW_PATTERN_PIN_SUBTITLE">Введите ключ восстановления (ПИН)</string>
+    <string name="DRAW_PATTERN_PIN_TITLE">Настройки ПИН</string>
+    <string name="DRAW_PATTERN_TITLE">Нарисовать PassGo</string>
+    <string name="INPUT_PIN_SUBTITLE">Введите ПИН</string>
+    <string name="INPUT_PIN_LESS_THAN_FHOUR_TOAST">Для ПИНа нужно не мене 4 цифр</string>
+    <string name="PassGo_changed">PassGo изменен</string>
+    <string name="PIN_changed">ПИН изменен</string>
+    <string name="arrow"> → </string>
+    <string name="change_to_default_question">Изменить настройки стиля по умолчанию?</string>
+    <string name="PATTERN_LINE_THICKNESS_THICK">Толстый</string>
+    <string name="PATTERN_LINE_THICKNESS_THIN">Тонкий</string>
+    <string name="delay">Слишком много неверных попыток, задержка</string>
+    <string name="minute">минута</string>
+    <string name="minutes">минуты</string>
+    <string name="seconds">секунды</string>
+    <string name="tab_default">стандарт</string>
+    <string name="tab_back">назад</string>
+    <string name="style_changed">стиль изменился</string>
+    <string name="style_changed_to_default">Стиль изменился по умолчанию</string>
+    <string name="pallet_title">Стиль</string>
+    <string name="hide_passgo">Скрыть PassGo</string>
+    <string name="show_circles">Показать Круги</string>
+    <string name="show_grid">Показать сетку</string>
+    <string name="passgo_line">PassGo линия</string>
+    <string name="passgo_dot">PassGo точка</string>
+    <string name="grid">сетка</string>
+    <string name="grid_circle">круг</string>
+    <string name="background">фон</string>
+    <string name="cancel">Отменить</string>
+    <string name="save">спасти</string>
+
+
+</resources>

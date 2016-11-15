@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="tab_clear">消去</string>
+    <string name="tab_cancel">取消</string>
+    <string name="tab_confirm">確定</string>
+    <string name="tab_continue">次</string>
+    <string name="faq">よくあるご質問</string>
+    <string name="LOCK_TYPE_PATTERN_SIZE_HELP">碁盤サイズを選択します</string>
+    <string name="SET_YOUR_PASSGO">囲碁パスワードを設定します</string>
+    <string name="SET_BACKUP_PIN">予備の数字パスワード（PIN）を設定します</string>
+    <string name="CONFIRM_BACKUP_PIN">数字パスワード（PIN）を確認します</string>
+    <string name="DRAW_PATTERN_HELP">囲碁パスワードを描きます</string>
+    <string name="LOGIN_PATTERN_HELP_ERROR">囲碁パスワードが間違っています。もう一度お試しください</string>
+    <string name="LOGIN_PATTERN_HELP_CONTINUE">囲碁パスワードが間違っています。もう一度ご入力ください</string>
+    <string name="LOGIN_PATTERN_PIN_HELP_ERROR">数字パスワード(PIN)が間違っています。もう一度お試しください</string>
+    <string name="DRAW_PATTERN_HELP_ERROR">囲碁パスワードが一致しません。もう一度お試しください</string>
+    <string name="DRAW_PATTERN_HELP_II">もう一度囲碁パスワードを描きます</string>
+    <string name="DRAW_PATTERN_HELP_SUCCESS">あなたの囲碁パスワードは　と設定されました</string>
+    <string name="DRAW_PATTERN_PIN_HELP">数字パスワード(PIN)を入力します</string>
+    <string name="DRAW_PATTERN_PIN_HELP_ERROR">数字パスワード(PIN)が一致しません。もう一度お試しください</string>
+    <string name="DRAW_PATTERN_PIN_HELP_ERROR_TOAST">数字パスワード(PIN)は空きです</string>
+    <string name="DRAW_PATTERN_PIN_HELP_II">数字パスワード（PIN）を確認します</string>
+    <string name="DRAW_PATTERN_PIN_SUBTITLE">数字パスワード(PIN)を入力します</string>
+    <string name="DRAW_PATTERN_PIN_TITLE">数字パスワード(PIN)を設定します</string>
+    <string name="DRAW_PATTERN_TITLE">囲碁パスワードを入力します</string>
+    <string name="INPUT_PIN_SUBTITLE">数字パスワード(PIN)を入力します</string>
+    <string name="INPUT_PIN_LESS_THAN_FHOUR_TOAST">数字パスワード(PIN)は4文字以上にしてください</string>
+    <string name="PassGo_changed">囲碁パスワードは変更されました</string>
+    <string name="PIN_changed">数字パスワード(PIN)は変更されました</string>
+    <string name="change_to_default_question">様式を全部初期化しますか?</string>
+    <string name="PATTERN_LINE_THICKNESS_THICK">太い</string>
+    <string name="PATTERN_LINE_THICKNESS_THIN">細かい</string>
+    <string name="delay">入力間違いの回数が多すぎて、遅延</string>
+    <string name="minute">分間</string>
+    <string name="minutes">分間</string>
+    <string name="seconds">秒</string>
+    <string name="tab_default">デフォルト</string>
+    <string name="tab_back">バック</string>
+    <string name="style_changed">スタイルが変更されました</string>
+    <string name="style_changed_to_default">スタイルにはデフォルト値が変更されました</string>
+    <string name="pallet_title">様式</string>
+    <string name="hide_passgo">パタン</string>
+    <string name="show_circles">小円</string>
+    <string name="show_grid">グリッド</string>
+    <string name="passgo_line">ライン</string>
+    <string name="passgo_dot">ドット</string>
+    <string name="grid">\u0020\u0020\u0020\u0020\u0020\u0020グリッド\u0020\u0020\u0020\u0020\u0020\u0020</string>
+    <string name="grid_circle">小円</string>
+    <string name="background">背景</string>
+    <string name="cancel">取消</string>
+    <string name="save">保存</string>
+
+
+</resources>

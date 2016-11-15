@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/ChangePassGo_activity_layout"
+    android:background="#ff000000" >
+
+    <TextView
+        android:id="@+id/lockscreen_pattern_draw_activity_title_TEXTVIEW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_above="@+id/ChangePassGo_PassGoView_Change"
+        android:text="@string/DRAW_PATTERN_HELP"
+        android:textColor="#ffffffff"
+        android:textStyle="bold" />
+    
+  
+
+    <net.passgo.passgo3d.PassGoView_Change
+        android:id="@id/ChangePassGo_PassGoView_Change"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="90.0dip" />
+
+    <LinearLayout
+        android:id="@+id/mLlayoutBottomButtons"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/clearbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:background="@color/Light_Blue"
+            android:paddingBottom="18dip"
+            android:paddingLeft="6dip"
+            android:paddingRight="6dip"
+            android:paddingTop="18dip"
+            android:text="@string/tab_clear"
+            android:textColor="@android:color/white" />
+
+        
+                 <Button
+            android:id="@+id/backbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:background="@color/Light_Blue"
+            android:paddingBottom="18dip"
+            android:paddingLeft="6dip"
+            android:paddingRight="6dip"
+            android:paddingTop="18dip"
+            android:text="@string/tab_back"
+            android:textColor="@android:color/white" />
+                
+               <Button
+            android:id="@+id/defaultbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:background="@color/Light_Blue"
+            android:paddingBottom="18dip"
+            android:paddingLeft="6dip"
+            android:paddingRight="6dip"
+            android:paddingTop="18dip"
+            android:text="@string/tab_default"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/continuebutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:background="@color/Light_Blue"
+            android:paddingBottom="18dip"
+            android:paddingLeft="6dip"
+            android:paddingRight="6dip"
+            android:paddingTop="18dip"
+            android:text="@string/tab_continue"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/confirmbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:background="@color/Light_Blue"
+            android:paddingBottom="18dip"
+            android:paddingLeft="6dip"
+            android:paddingRight="6dip"
+            android:paddingTop="18dip"
+            android:text="@string/tab_confirm"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</RelativeLayout><!-- android:layout_centerInParent="true" -->

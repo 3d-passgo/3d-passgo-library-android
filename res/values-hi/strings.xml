@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation,MissingTranslation">
+
+    <string name="tab_clear">क्लियर</string>
+    <string name="tab_cancel">कैंसल</string>
+    <string name="tab_confirm">कन्‍फर्म</string>
+    <string name="tab_continue">जारी</string>
+    <string name="faq">बारंबार पूछे जाने वाले प्रश्न</string>
+    <string name="LOCK_TYPE_PATTERN_SIZE_HELP">ग्रिड साइज़ चुनें</string>
+    <string name="SET_YOUR_PASSGO">अपना PassGo सेट करें</string>
+    <string name="SET_BACKUP_PIN">बैकअप पिन सेट करें</string>
+    <string name="CONFIRM_BACKUP_PIN">बैकअप पिन कन्‍फर्म करें</string>
+    <string name="DRAW_PATTERN_HELP">अपना PassGo ड्रॉ करें</string>
+    <string name="LOGIN_PATTERN_HELP_ERROR">गलत PassGo, दोबारा ट्राई करें</string>
+    <string name="LOGIN_PATTERN_HELP_CONTINUE">गलत PassGo, जारी रखें</string>
+    <string name="LOGIN_PATTERN_PIN_HELP_ERROR">गलत पिन, दोबारा ट्राई करें</string>
+    <string name="DRAW_PATTERN_HELP_ERROR">PassGo मैच नहीं, दोबारा ट्राई करें</string>
+    <string name="DRAW_PATTERN_HELP_II">कन्‍फर्म करने हेतु PassGo ड्रॉ करें</string>
+    <string name="DRAW_PATTERN_HELP_SUCCESS">आपका PassGo ऐसे सेव किया जाएगा</string>
+    <string name="DRAW_PATTERN_PIN_HELP">बैकअप पिन को सेट करें</string>
+    <string name="DRAW_PATTERN_PIN_HELP_ERROR">पिन नहीं मिलते, दोबारा ट्राई करें</string>
+    <string name="DRAW_PATTERN_PIN_HELP_ERROR_TOAST">पिन दर्ज नहीं किया गया</string>
+    <string name="DRAW_PATTERN_PIN_HELP_II">पिन कन्‍फर्म करें</string>
+    <string name="DRAW_PATTERN_PIN_SUBTITLE">इनपुट बैकअप कुंजी(पिन)</string>
+    <string name="DRAW_PATTERN_PIN_TITLE">पिन सेटिंग</string>
+    <string name="DRAW_PATTERN_TITLE">ड्रॉ PassGo</string>
+    <string name="INPUT_PIN_SUBTITLE">इनपुट पिन</string>
+    <string name="INPUT_PIN_LESS_THAN_FHOUR_TOAST">पिन में न्‍यूनतम 4 अंक चाहिएं</string>
+    <string name="PassGo_changed">PassGo बदल गया</string>
+    <string name="PIN_changed">पिन बदल गया</string>
+    <string name="arrow"> → </string>
+    <string name="change_to_default_question">डिफॉल्‍ट स्‍टाइल सेटिंग्‍स में बदलना है?</string>
+    <string name="PATTERN_LINE_THICKNESS_THICK">मोटा</string>
+    <string name="PATTERN_LINE_THICKNESS_THIN">पतला</string>
+    <string name="delay">अनेक असफल प्रयास, विलंब</string>
+    <string name="minute">मिनट</string>
+    <string name="minutes">मिनट</string>
+    <string name="seconds">सैकण्‍ड</string>
+    <string name="tab_default">मानक</string>
+    <string name="tab_back">वापस</string>
+    <string name="style_changed">शैली बदल</string>
+    <string name="style_changed_to_default">शैली डिफ़ॉल्ट करने के लिए बदल गया</string>
+    <string name="pallet_title">अंदाज</string>
+    <string name="hide_passgo">PassGo छुपाएं</string>
+    <string name="show_circles">दिखाएँ सर्किलों</string>
+    <string name="show_grid">ग्रिड दिखाएं</string>
+    <string name="passgo_line">PassGo लाइन</string>
+    <string name="passgo_dot">PassGo डॉट</string>
+    <string name="grid">ग्रिड</string>
+    <string name="grid_circle">वृत्त</string>
+    <string name="background">पृष्ठभूमि</string>
+    <string name="cancel">कैंसल</string>
+    <string name="save">सहेजें</string>
+
+
+
+</resources>

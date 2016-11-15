@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation,MissingTranslation">
+
+    <string name="faq_question_10">What is PassGo?</string>
+    <string name="faq_answer_10">  PassGo is a graphical password scheme derived from the \"Go Game\", an accent Chinese game, and that is where the name comes from.</string>
+
+    <string name="faq_question_15">What is 3D PassGo?</string>
+    <string name="faq_answer_15">  3D PassGo extends PassGo to a 3D space: a user draws dots and/or lines on a 3D grid. The 3D grid can be optionally rotated and zoomed in or out to further improve the security. </string>
+
+    <string name="faq_question_20">What is \"3D PassGo Lock Screen\"?</string>
+    <string name="faq_answer_20">  \"3D PassGo Lock Screen\" is a lock screen Android App which implements 3D PassGo as its main password scheme. </string>
+
+    <string name="faq_question_30">Is PassGo secure?</string>
+	<string name="faq_answer_30">  In PassGo, the security can be fine-tuned by adjusting the grid size which is available from 1x1x1 to 19x19x19.
+	    In addition, PassGo allows multiple strokes, namely you can draw multiple dots and lines. The larger the grid size is and the larger the stroke
+	    number is, the more secure your passwrod will be. Such, a user can choose a password at any desired security level with appropriate usability.</string>
+
+    <string name="faq_question_40">How do I enter a PassGo?</string>
+    <string name="faq_answer_40">  In PassGo, a user clicks or draws through the intersections of a grid, as a way to input a password.</string>
+
+    <string name="faq_question_50">How do I draw a dot?</string>
+    <string name="faq_answer_50">  To draw a dot, touch an intersection on the grid and then lift your finger.</string>
+
+    <string name="faq_question_60">How do I draw a line?</string>
+    <string name="faq_answer_60">  To draw a line, touch multiple intersections continuously and then lift your finger.</string>
+
+    <string name="faq_question_65">How do I rotate the grid?</string>
+    <string name="faq_answer_65">  Touch the screen just around(not too far) or inside the grid without touching any intersections, and then keep moving on the screen, the grid will rotate.</string>
+
+    <string name="faq_question_66">How do I zoom in or out the grid?</string>
+    <string name="faq_answer_66">  Place two fingers on the grid and then adjust the distance between the two fingers, the grid will zoom in or out.</string>
+
+    <string name="faq_question_67">How do I move the grid?</string>
+    <string name="faq_answer_67">  Touch the screen without touching any intersections, hold for one second, and then the grid will start to move with the finger;
+        in addition when finish zooming, you can also hold one finger for one second after lifting the other finger, and the grid will also move along the finger.
+    (Note, moving grid only works on grid size smaller than 9x9x9)</string>
+
+    <string name="faq_question_70">Do I have to draw PassGo in exactly the same way as how I set up?</string>
+	<string name="faq_answer_70">  Yes. PassGo requires to be drawn in EXACTLY the same way as how it was set up. For example, if you click the an
+	    intersection twice when you set up PassGo, then you must click the same intersection twice when you login, even though you only see one dot on the grid
+	    (the other dot is overlapped in this case).</string>
+
+    <string name="faq">FAQ</string>
+
+    <string name="tab_clear">Clear</string>
+    <string name="tab_cancel">Cancel</string>
+    <string name="tab_confirm">Confirm</string>
+    <string name="tab_continue">Continue</string>
+    <string name="tab_default">Default</string>
+    <string name="tab_back">Back</string>
+
+
+    <string name="LOCK_TYPE_PATTERN_SIZE_HELP">Choose grid size</string>
+    <string name="arrow"> → </string>
+
+
+    <string name="SET_YOUR_PASSGO">Set Your PassGo</string>
+    <string name="DRAW_PATTERN_HELP">Draw your PassGo</string>
+    <string name="LOGIN_PATTERN_HELP_ERROR">Wrong PassGo, try again</string>
+    <string name="LOGIN_PATTERN_HELP_CONTINUE">Wrong PassGo, continue</string>
+    <string name="DRAW_PATTERN_HELP_ERROR">PassGo do not match, try again</string>
+    <string name="DRAW_PATTERN_HELP_II">Draw PassGo again to confirm</string>
+    <string name="DRAW_PATTERN_HELP_SUCCESS">Your PassGo will be saved as</string>
+    <string name="DRAW_PATTERN_TITLE">Draw PassGo</string>
+    <string name="PassGo_changed">PassGo changed</string>
+
+
+
+    <string name="DRAW_PATTERN_PIN_TITLE">PIN Setting</string>
+    <string name="INPUT_PIN_SUBTITLE">Input PIN</string>
+    <string name="SET_BACKUP_PIN">Set Backup PIN</string>
+    <string name="CONFIRM_BACKUP_PIN">Confirm Backup PIN</string>
+    <string name="LOGIN_PATTERN_PIN_HELP_ERROR">Wrong PIN, try again</string>
+    <string name="DRAW_PATTERN_PIN_HELP">Set Backup PIN</string>
+    <string name="DRAW_PATTERN_PIN_HELP_ERROR">PINs do not match, try again</string>
+    <string name="DRAW_PATTERN_PIN_HELP_ERROR_TOAST">PIN is not entered</string>
+    <string name="DRAW_PATTERN_PIN_HELP_II">Confirm PIN</string>
+    <string name="DRAW_PATTERN_PIN_SUBTITLE">Input Backup Key(PIN)</string>
+    <string name="INPUT_PIN_LESS_THAN_FHOUR_TOAST">PIN needs at least 4 numbers</string>
+    <string name="PIN_changed">PIN changed</string>
+
+
+    <string name="change_to_default_question">Change to Default Style Settings?</string>
+
+    <string name="PATTERN_LINE_THICKNESS_THICK">Thick</string>
+    <string name="PATTERN_LINE_THICKNESS_THIN">Thin</string>
+    <string name="delay">Too many failed attempts, delay</string>
+    <string name="minute">minute</string>
+    <string name="minutes">minutes</string>
+    <string name="seconds">seconds</string>
+
+
+
+    <string name="pallet_title">Style</string>
+    <string name="hide_passgo">Hide PassGo</string>
+    <string name="show_circles">Show Circles</string>
+    <string name="show_grid">Show Grid</string>
+    <string name="passgo_line">PassGo Line</string>
+    <string name="passgo_dot">PassGo Dot</string>
+    <string name="grid">Grid</string>
+    <string name="grid_circle">Grid Circle</string>
+    <string name="background">Background</string>
+    <string name="style_changed">Style changed</string>
+    <string name="style_changed_to_default">Style changed to default</string>
+
+
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+
+    <string name="ENTER_YOUR_PASSGO">Enter your PassGo</string>
+    <string name="ENTER_YOUR_CURRENT_PASSGO">Enter your current PassGo</string>
+
+
+</resources>

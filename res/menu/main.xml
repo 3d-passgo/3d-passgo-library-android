@@ -1,0 +1,63 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<!--  
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+    <item
+        android:id="@+id/landscape"
+        android:checkable="true"
+        android:checked="false"
+        android:showAsAction="never"
+        android:title="@string/lock_to_landscape">
+    </item>
+    <item
+        android:id="@+id/content"
+        android:icon="@android:drawable/ic_menu_gallery"
+        android:showAsAction="never"
+        android:title="@string/launch_camera_app">
+    </item>
+    <item
+        android:id="@+id/fullscreen"
+        android:showAsAction="never"
+        android:title="@string/launch_full_screen">
+    </item> -->
+
+    <item
+        android:id="@+id/faq"
+        android:showAsAction="never"
+        android:title="@string/faq">
+    </item>
+<!--     <item
+        android:id="@+id/rate_passgo"
+        android:showAsAction="never"
+        android:title="@string/rate_passgo">
+    </item>
+        <item
+        android:id="@+id/email_feedback"
+        android:showAsAction="never"
+        android:title="@string/email_feedback">
+    </item>
+    <item
+        android:id="@+id/check_update"
+        android:showAsAction="never"
+        android:title="@string/check_update">
+    </item> -->
+    
+        <!--<item-->
+        <!--android:id="@+id/app_about"-->
+        <!--android:showAsAction="never"-->
+        <!--android:title="@string/app_about">-->
+    <!--</item>-->
+
+    <!--
+    <item
+        android:id="@+id/passgo_about"
+        android:actionLayout="@layout/passgo_about_page"
+        android:showAsAction="never">
+    </item>
+    -->
+
+</menu>

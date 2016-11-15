@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation,MissingTranslation">
+
+  <string name="tab_clear">مسح</string>
+  <string name="tab_cancel">الغاء</string>
+  <string name="tab_confirm">تأكيد</string>
+  <string name="tab_continue">متابعة</string>
+  <string name="faq">الأسئلة الشائعة</string>
+  <string name="LOCK_TYPE_PATTERN_SIZE_HELP">اختر حجم الشبكة</string>
+  <string name="SET_YOUR_PASSGO">تعيين PassGo المفضل</string>
+  <string name="SET_BACKUP_PIN">تعيين رقم التعريف الشخصي الخاص بالنسخ الاحتياطية</string>
+  <string name="CONFIRM_BACKUP_PIN">تأكيد رقم التعريف الشخصي الخاص بالنسخ الاحتياطية</string>
+  <string name="DRAW_PATTERN_HELP">ارسم PassGo الخاص بك</string>
+  <string name="LOGIN_PATTERN_HELP_ERROR">PassGo غير صحيح، حاول لاحقا</string>
+  <string name="LOGIN_PATTERN_HELP_CONTINUE">PassGo غير صحيح، متابعة</string>
+  <string name="LOGIN_PATTERN_PIN_HELP_ERROR">رقم التعريف الشخصي غير صحيح، حاول لاحقا</string>
+  <string name="DRAW_PATTERN_HELP_ERROR">رقم PassGo غير مطابق، حاولا لاحقا</string>
+  <string name="DRAW_PATTERN_HELP_II">ارسم PassGo مرة أخرى للتأكيد</string>
+  <string name="DRAW_PATTERN_HELP_SUCCESS">سيتم حفظ PassGo كـ</string>
+  <string name="DRAW_PATTERN_PIN_HELP">تعيين رقم التعريف الشخصي الخاص بالنسخ الاحتياطية</string>
+  <string name="DRAW_PATTERN_PIN_HELP_ERROR">رقم التعريف الشخصي غير مطابق، حاولا لاحقا</string>
+  <string name="DRAW_PATTERN_PIN_HELP_ERROR_TOAST">لم يتم ادخال رقم التعريف الشخصي</string>
+  <string name="DRAW_PATTERN_PIN_HELP_II">تأكيد رقم التعريف الشخصي</string>
+  <string name="DRAW_PATTERN_PIN_SUBTITLE">ادخل رقم التعريف الشخصي الخاص بالنسخ الاحتياطية</string>
+  <string name="DRAW_PATTERN_PIN_TITLE">اعدادات رقم التعريف الشخصي</string>
+  <string name="DRAW_PATTERN_TITLE">ارسم PassGo الخاص بك</string>
+  <string name="INPUT_PIN_SUBTITLE">ادخل رقم التعريف الشخصي</string>
+  <string name="INPUT_PIN_LESS_THAN_FHOUR_TOAST">رقم التعريف الشخصي لابد ان يكون اكثر من 4 ارقام</string>
+  <string name="PassGo_changed">تغيير PassGo</string>
+  <string name="PIN_changed">تم تغيير PassGo</string>
+  <string name="arrow">→</string>
+  <string name="change_to_default_question">هل تريد اعادة الطراز الافتراضي؟</string>
+  <string name="PATTERN_LINE_THICKNESS_THICK">سميك</string>
+  <string name="PATTERN_LINE_THICKNESS_THIN">رقيق</string>
+  <string name="delay">الكثير من المحاولات الفاشلة، تأخر</string>
+  <string name="minute">دقيقه</string>
+  <string name="minutes">دقائق</string>
+  <string name="seconds">ثواني</string>
+  <string name="tab_default">حكم غيابي</string>
+  <string name="tab_back">ارجع</string>
+  <string name="style_changed">تغيير أسلوب</string>
+  <string name="style_changed_to_default">أسلوب تغيير الافتراضي</string>
+  <string name="pallet_title">أسلوب</string>
+  <string name="hide_passgo">إخفاء PassGo</string>
+  <string name="show_circles">مشاهدة الدوار</string>
+  <string name="show_grid">مشاهدة الشبكة</string>
+  <string name="passgo_line">PassGo خط</string>
+  <string name="passgo_dot">PassGo نقطة</string>
+  <string name="grid">شبكة</string>
+  <string name="grid_circle">دائرة</string>
+  <string name="background">خلفية</string>
+  <string name="cancel">الغاء</string>
+  <string name="save">حفظ</string>
+
+
+</resources>

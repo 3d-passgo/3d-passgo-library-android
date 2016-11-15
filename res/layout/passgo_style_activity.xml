@@ -1,0 +1,279 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/gray"
+
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:textSize="10dp"
+            android:paddingTop="10dp"
+            android:paddingLeft="5dp"
+            android:paddingBottom="5dp"
+            android:paddingRight="5dp">
+
+            <Button
+                android:id="@+id/button_hide_passgo"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@color/Light_Blue"
+                android:padding="5dp"
+                android:text="@string/hide_passgo"
+                android:textSize="20dp"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/button_show_circles"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@color/Light_Blue"
+                android:padding="5dp"
+                android:text="@string/show_circles"
+                android:textSize="20dp"
+                android:textColor="@android:color/white" />
+
+
+            <Button
+                android:id="@+id/button_show_grid"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@color/Light_Blue"
+                android:padding="5dp"
+                android:text="@string/show_grid"
+                android:textSize="20dp"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+
+
+        <net.passgo.passgo3d.PassGoView_Style
+            android:id="@+id/PassGoView_Style"
+            android:layout_gravity="center"
+            android:layout_weight="0"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0.0dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:gravity="center"
+
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp">
+
+            <Button
+                android:id="@+id/button_line_color"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@color/Light_Blue"
+                android:padding="5dp"
+                android:text="@string/passgo_line"
+                android:textSize="20dp"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/button_dot_color"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@color/Light_Blue"
+                android:padding="5dp"
+                android:text="@string/passgo_dot"
+                android:textSize="20dp"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/button_grid_color"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@color/Light_Blue"
+                android:padding="5dp"
+                android:text="@string/grid"
+                android:textSize="20dp"
+                android:textColor="@android:color/white" />
+
+
+            <Button
+                android:id="@+id/button_grid_circle_color"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@color/Light_Blue"
+                android:padding="5dp"
+                android:text="@string/grid_circle"
+                android:textSize="20dp"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/button_bg_color"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@color/Light_Blue"
+                android:padding="5dp"
+                android:text="@string/background"
+                android:textSize="20dp"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp">
+
+            <net.passgo.passgo3d.ColorPickerView
+                android:id="@+id/color_picker_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layerType="software"
+                android:layout_weight="2"
+                android:tag="portrait" />
+
+            <SeekBar
+                android:id="@+id/pallet_seekbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/pallet_thin_TEXTVIEW"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:text="@string/PATTERN_LINE_THICKNESS_THIN"
+                    android:textSize="15dp"
+                    android:textColor="@color/list_item_level_two" />
+
+                <TextView
+                    android:id="@+id/pallet_thick_TEXTVIEW"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="@string/PATTERN_LINE_THICKNESS_THICK"
+                    android:textSize="15dp"
+                    android:textColor="@color/list_item_level_two" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mLlayoutBottomButtons"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/pallet_cancel_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:background="@color/Light_Blue"
+            android:paddingBottom="18dip"
+            android:paddingLeft="6dip"
+            android:paddingRight="6dip"
+            android:paddingTop="18dip"
+            android:text="@string/cancel"
+            android:textSize="20dp"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/pallet_default_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:background="@color/Light_Blue"
+            android:paddingBottom="18dip"
+            android:paddingLeft="6dip"
+            android:paddingRight="6dip"
+            android:paddingTop="18dip"
+            android:text="@string/tab_default"
+            android:textSize="20dp"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/pallet_save_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:background="@color/Light_Blue"
+            android:paddingBottom="18dip"
+            android:paddingLeft="6dip"
+            android:paddingRight="6dip"
+            android:paddingTop="18dip"
+            android:textSize="20dp"
+            android:text="@string/save"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+
+</LinearLayout>

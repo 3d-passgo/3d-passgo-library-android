@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation,MissingTranslation">
+
+    <string name="tab_clear">Limpar</string>
+    <string name="tab_cancel">Cancelar</string>
+    <string name="tab_confirm">Confirmar</string>
+    <string name="tab_continue">Continuar</string>
+    <string name="faq">Perguntas Frequentes</string>
+    <string name="LOCK_TYPE_PATTERN_SIZE_HELP">Escolher tamanho de grelha</string>
+    <string name="SET_YOUR_PASSGO">Defina o seu PassGo</string>
+    <string name="SET_BACKUP_PIN">Definir PIN de reserva</string>
+    <string name="CONFIRM_BACKUP_PIN">Confirme PIN de reserva</string>
+    <string name="DRAW_PATTERN_HELP">Desenhe o seu PassGo</string>
+    <string name="LOGIN_PATTERN_HELP_ERROR">PassGo errado; tente novamente</string>
+    <string name="LOGIN_PATTERN_HELP_CONTINUE">PassGo errado; continuar</string>
+    <string name="LOGIN_PATTERN_PIN_HELP_ERROR">PIN errado; tente novamente</string>
+    <string name="DRAW_PATTERN_HELP_ERROR">PassGo não corresponde; tente novamente</string>
+    <string name="DRAW_PATTERN_HELP_II">Desenhe PassGo novamente para confirmar</string>
+    <string name="DRAW_PATTERN_HELP_SUCCESS">O seu PassGo será guardado como</string>
+    <string name="DRAW_PATTERN_PIN_HELP">Definir PIN de Reserva</string>
+    <string name="DRAW_PATTERN_PIN_HELP_ERROR">PINs não são iguais; tente novamente</string>
+    <string name="DRAW_PATTERN_PIN_HELP_ERROR_TOAST">PIN não digitado</string>
+    <string name="DRAW_PATTERN_PIN_HELP_II">Confirme o PIN</string>
+    <string name="DRAW_PATTERN_PIN_SUBTITLE">Digite a Chave de Reserva (PIN)</string>
+    <string name="DRAW_PATTERN_PIN_TITLE">Definições de PIN</string>
+    <string name="DRAW_PATTERN_TITLE">Desenhe o PassGo</string>
+    <string name="INPUT_PIN_SUBTITLE">Digite o PIN</string>
+    <string name="INPUT_PIN_LESS_THAN_FHOUR_TOAST">PIN deve conter pelo menos 4 números</string>
+    <string name="PassGo_changed">PassGo alterado</string>
+    <string name="PIN_changed">PIN alterado</string>
+    <string name="arrow"> → </string>
+    <string name="change_to_default_question">Alterar as Definições do Estilo Padrão?</string>
+    <string name="PATTERN_LINE_THICKNESS_THICK">Grossa</string>
+    <string name="PATTERN_LINE_THICKNESS_THIN">Fina</string>
+    <string name="delay">Demasiadas tentativas falhadas; atraso</string>
+    <string name="minute">minuto</string>
+    <string name="minutes">minutos</string>
+    <string name="seconds">segundos</string>
+    <string name="tab_default">Padrão</string>
+    <string name="tab_back">Volte</string>
+    <string name="style_changed">Estilo mudou</string>
+    <string name="style_changed_to_default">Estilo mudou para o padrão</string>
+    <string name="pallet_title">Estilo</string>
+    <string name="hide_passgo">Esconder PassGo</string>
+    <string name="show_circles">Mostrar Círculo</string>
+    <string name="show_grid">Mostrar Grade</string>
+    <string name="passgo_line">PassGo Linha</string>
+    <string name="passgo_dot">PassGo Dot</string>
+    <string name="grid">Grade</string>
+    <string name="grid_circle">Círculo</string>
+    <string name="background">Fundo</string>
+    <string name="cancel">Cancelar</string>
+    <string name="save">Salvar</string>
+
+
+
+</resources>

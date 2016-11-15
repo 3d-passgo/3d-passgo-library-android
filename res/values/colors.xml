@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="HoloBlueW">#8033b5e5</color>
+    <color name="HoloDBlue">#ff759aba</color>
+    <color name="Pushbutton">#002060</color>
+    <color name="Transparent">#00000000</color>
+    <color name="Transparent_Gray">#20000000</color>
+    <color name="Light_Blue">#ff548bd4</color>
+    <color name="Dark_Blue">#ff002060</color>
+    <color name="gray">#ff808080</color>
+    <color name="red">#FF0000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="list_item_level_two">#FFFFFFFF</color>
+
+   
+    <color name="transparent">#00000000</color>
+</resources>
+

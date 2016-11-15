@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="tab_clear">清除</string>
+    <string name="tab_cancel">取消</string>
+    <string name="tab_confirm">确定</string>
+    <string name="tab_continue">继续</string>
+    <string name="faq">常见问题</string>
+    <string name="LOCK_TYPE_PATTERN_SIZE_HELP">选择棋盘尺寸</string>
+    <string name="SET_YOUR_PASSGO">设置围棋密码</string>
+    <string name="SET_BACKUP_PIN">设置备用数字密码(PIN)</string>
+    <string name="CONFIRM_BACKUP_PIN">确认数字密码(PIN)</string>
+    <string name="DRAW_PATTERN_HELP">画围棋密码</string>
+    <string name="LOGIN_PATTERN_HELP_ERROR">围棋密码不正确，请再试</string>
+    <string name="LOGIN_PATTERN_HELP_CONTINUE">围棋密码不正确，请继续输入</string>
+    <string name="LOGIN_PATTERN_PIN_HELP_ERROR">数字密码(PIN)不正确，请再试</string>
+    <string name="DRAW_PATTERN_HELP_ERROR">围棋密码不匹配，请再试</string>
+    <string name="DRAW_PATTERN_HELP_II">再画一次围棋密码</string>
+    <string name="DRAW_PATTERN_HELP_SUCCESS">你的围棋密码将被设置为</string>
+    <string name="DRAW_PATTERN_PIN_HELP">输入数字密码(PIN)</string>
+    <string name="DRAW_PATTERN_PIN_HELP_ERROR">数字密码(PIN)不匹配，请再试</string>
+    <string name="DRAW_PATTERN_PIN_HELP_ERROR_TOAST">空的数字密码(PIN)</string>
+    <string name="DRAW_PATTERN_PIN_HELP_II">确认数字密码(PIN)</string>
+    <string name="DRAW_PATTERN_PIN_SUBTITLE">输入数字密码(PIN)</string>
+    <string name="DRAW_PATTERN_PIN_TITLE">设置数字密码(PIN)</string>
+    <string name="DRAW_PATTERN_TITLE">输入围棋密码</string>
+    <string name="INPUT_PIN_SUBTITLE">输入数字密码(PIN)</string>
+    <string name="INPUT_PIN_LESS_THAN_FHOUR_TOAST">数字密码(PIN)必须至少4位数</string>
+    <string name="PassGo_changed">围棋密码已更改</string>
+    <string name="PIN_changed">数字密码(PIN)已更改</string>
+    <string name="arrow"> → </string>
+    <string name="change_to_default_question">样式全部返回缺省设置?</string>
+    <string name="PATTERN_LINE_THICKNESS_THICK">粗</string>
+    <string name="PATTERN_LINE_THICKNESS_THIN">细</string>
+    <string name="delay">太多次输入错误，延迟</string>
+    <string name="minute">分钟</string>
+    <string name="minutes">分钟</string>
+    <string name="seconds">秒</string>
+    <string name="tab_default">默认</string>
+    <string name="tab_back">退回</string>
+    <string name="style_changed">样式已保存</string>
+    <string name="style_changed_to_default">样式已全部设回默认值</string>
+    <string name="pallet_title">样式</string>
+    <string name="hide_passgo">隐藏密码</string>
+    <string name="show_circles">显示小圆圈</string>
+    <string name="show_grid">显示围棋盘</string>
+    <string name="passgo_line">线</string>
+    <string name="passgo_dot">点</string>
+    <string name="grid">\u0020\u0020围 棋 盘\u0020\u0020</string>
+    <string name="grid_circle">\u0020\u0020小 圆 圈\u0020\u0020</string>
+    <string name="background">背景</string>
+    <string name="cancel">取消</string>
+    <string name="save">保存</string>
+    <string name="ENTER_YOUR_PASSGO">输入围棋密码</string>
+    <string name="ENTER_YOUR_CURRENT_PASSGO">输入现有围棋密码</string>
+
+
+    <string name="faq_question_10">什么是PassGo?</string>
+    <string name="faq_answer_10">  围棋在英文里叫\“Go\”, 因此PassGo就是\“围棋密码\”"的意思，是从围棋演变而来的一款图形密码机制。</string>
+
+    <string name="faq_question_15">什么是3D PassGo?</string>
+    <string name="faq_answer_15">  \“3D围棋密码\”利用了虚拟现实技术将“围棋密码”从二维平面扩展至三维立体空间。在一个立方体上，用户依然通过在交叉点上点击或滑动，画出立体的点和线等图案，形成密码。与\“2D围棋密码\”不同的是，\“3D围棋密码\”可以在立体空间里旋转和缩放。用户可以将3D棋盘调整到自己喜欢的角度和大小，画出密码，进而提高密码的安全度。
+</string>
+
+
+    <string name="faq_question_20">什么是\"围棋密码锁屏\"?</string>
+    <string name="faq_answer_20">  \"围棋密码锁屏\"是一款以围棋密码为安全机制的安卓移动应用。 </string>
+
+    <string name="faq_question_30">围棋密码安全吗?</string>
+	<string name="faq_answer_30">  围棋密码的安全级别可以通过对围棋盘的大小和输入密码的笔画数来调整。围棋盘越大，笔画越多，密码则越安全。
+	    本应用提供1x1x1到19x19x19的尺寸，用户可以根据自己的需要设定相应安全级别的密码。</string>
+
+    <string name="faq_question_40">怎样输入围棋密码?</string>
+    <string name="faq_answer_40">  用户在交叉点上点击或滑动，画出点和线等图案，从而形成密码。</string>
+
+    <string name="faq_question_50">怎样画一个点?</string>
+    <string name="faq_answer_50">  用手指点击一个交叉点。</string>
+
+    <string name="faq_question_60">怎样画一条线?</string>
+    <string name="faq_answer_60">  用手指连续触摸若干个交叉点。</string>
+
+    <string name="faq_question_65">怎样旋转围棋盘？</string>
+    <string name="faq_answer_65">  手指落在3D围棋盘的附近或里面（但不要碰到任何交叉点），再移动手指，就会旋转起来。</string>
+
+    <string name="faq_question_66">怎样放大或缩小围棋盘?</string>
+    <string name="faq_answer_66">  放下两个手指并调整其间距，围棋盘就会放大和缩小</string>
+
+    <string name="faq_question_67">怎样移动围棋盘?</string>
+    <string name="faq_answer_67">  手指落在3D围棋盘的附近或里面（但不要碰到任何交叉点），停住一秒钟，围棋盘就会开始跟随手指而移动；
+        另外，当你结束放大或缩小围棋盘时，提起一个手指后，另外一个手指在原处停住一秒钟，围棋盘也会开始跟随手指而移动。
+    (注：只有小于9x9x9的围棋盘才能移动）</string>
+
+
+    <string name="faq_question_70">输入密码时必须跟设定密码时画得完全一致吗?</string>
+	<string name="faq_answer_70">  是的。 围棋密码要求在输入时与设定时遵从同样的顺序与方向。 比如在设定密码时，
+	    如果在一个交叉点点击了两下，虽然只显示一个点（另一个点被盖住了），输入时同样需要点击两次。</string>
+
+
+</resources>

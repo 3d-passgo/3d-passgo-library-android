@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation,MissingTranslation">
+
+
+    <string name="tab_clear">xóa</string>
+    <string name="tab_cancel">Hủy</string>
+    <string name="tab_confirm">Xác nhận</string>
+    <string name="tab_continue">Tiếp tục</string>
+    <string name="faq">FAQ</string>
+    <string name="LOCK_TYPE_PATTERN_SIZE_HELP">Chọn kích thước lưới</string>
+    <string name="SET_YOUR_PASSGO">Cài đặt PassGo của bạn</string>
+    <string name="SET_BACKUP_PIN">Cài đặt mã PIN dự phòng</string>
+    <string name="CONFIRM_BACKUP_PIN">xác nhận mã PIN dự phòng</string>
+    <string name="DRAW_PATTERN_HELP">Vẽ mật khẩu PassGo</string>
+    <string name="LOGIN_PATTERN_HELP_ERROR">Sai mật khẩu PassGo, thử lại</string>
+    <string name="LOGIN_PATTERN_HELP_CONTINUE">Sai mật khẩu PassGo, tiếp tục</string>
+    <string name="LOGIN_PATTERN_PIN_HELP_ERROR">Sai mã PIN, thử lại</string>
+    <string name="DRAW_PATTERN_HELP_ERROR">PassGo không khớp, th lại</string>
+    <string name="DRAW_PATTERN_HELP_II">Vẽ mật khẩu PassGo lại để xác nhận</string>
+    <string name="DRAW_PATTERN_HELP_SUCCESS">PassGo của bạn sẽ được lưu thành:</string>
+    <string name="DRAW_PATTERN_PIN_HELP">Cài đặt mã PIN dự phòng</string>
+    <string name="DRAW_PATTERN_PIN_HELP_ERROR">Mã PIN không khớp, hãy thử lại</string>
+    <string name="DRAW_PATTERN_PIN_HELP_ERROR_TOAST">Chưa nhập mã PIN</string>
+    <string name="DRAW_PATTERN_PIN_HELP_II">xác nhận mã PIN</string>
+    <string name="DRAW_PATTERN_PIN_SUBTITLE">Khóa dự phòng đầu vào</string>
+    <string name="DRAW_PATTERN_PIN_TITLE">Cài đặt mã PIN</string>
+    <string name="DRAW_PATTERN_TITLE">Vẽ mật khẩu PassGo</string>
+    <string name="INPUT_PIN_SUBTITLE">Mã PIN đầu vào</string>
+    <string name="INPUT_PIN_LESS_THAN_FHOUR_TOAST">Mã PIN cần ít nhất 4 số</string>
+    <string name="PassGo_changed">PassGo đã được thay đổi</string>
+    <string name="PIN_changed">Mã PIN đã được thay đổi</string>
+    <string name="arrow"> → </string>
+    <string name="change_to_default_question">Change to Default Style Settings?</string>
+    <string name="PATTERN_LINE_THICKNESS_THICK">Thick</string>
+    <string name="PATTERN_LINE_THICKNESS_THIN">Thin</string>
+    <string name="delay">Too many failed attempts, delay</string>
+    <string name="minute">minute</string>
+    <string name="minutes">minutes</string>
+    <string name="seconds">seconds</string>
+    <string name="tab_default">tiêu chuẩn</string>
+    <string name="tab_back">quay lại</string>
+    <string name="style_changed">phong cách thay đổi</string>
+    <string name="style_changed_to_default">Phong cách thay đổi để mặc định</string>
+    <string name="pallet_title">phong cách</string>
+    <string name="hide_passgo">Ẩn PassGo</string>
+    <string name="show_circles">Hiện vòng tròn</string>
+    <string name="show_grid">Hiện lưới</string>
+    <string name="passgo_line">PassGo đường</string>
+    <string name="passgo_dot">PassGo chấm</string>
+    <string name="grid">lưới</string>
+    <string name="background">lý lịch</string>
+    <string name="cancel">Hủy</string>
+    <string name="save">kiệm</string>
+
+
+</resources>

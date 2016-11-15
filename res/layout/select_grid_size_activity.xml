@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#10000000"
+    android:gravity="center_horizontal"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <RelativeLayout
+        android:id="@+id/lockscreen_pattern_size_layout_RELATIVELAYOUT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:background="@android:color/transparent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin" >
+
+        <!--  -->
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="0.0dip"
+            android:text="@string/LOCK_TYPE_PATTERN_SIZE_HELP"
+            android:textColor="#ff808080"
+            android:textSize="16.0dip"
+            android:textStyle="bold" />
+
+        <NumberPicker
+            android:id="@+id/lockscreen_type_pattern_kind_activity_pattern_row_NUMBERPICKER"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18.0dip"
+            android:layout_toLeftOf="@+id/textView2" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingTop="18.0dip"
+            android:layout_toLeftOf="@+id/lockscreen_type_pattern_kind_activity_pattern_col_NUMBERPICKER"
+            android:text="X" />
+
+            <NumberPicker
+                android:id="@+id/lockscreen_type_pattern_kind_activity_pattern_col_NUMBERPICKER"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18.0dip"
+                android:layout_toLeftOf="@+id/textView3" />
+
+            <TextView
+                android:id="@id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingTop="18.0dip"
+                android:layout_toLeftOf="@+id/lockscreen_type_pattern_kind_activity_pattern_hei_NUMBERPICKER"
+                android:text="X" />
+
+            <NumberPicker
+                android:id="@+id/lockscreen_type_pattern_kind_activity_pattern_hei_NUMBERPICKER"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18.0dip"
+                android:layout_toLeftOf="@+id/lockscreen_patternbutton_layout_RELATIVELAYOUT" />
+
+        <RelativeLayout
+            android:id="@+id/lockscreen_patternbutton_layout_RELATIVELAYOUT"
+            android:layout_width="50.0dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@android:color/transparent"
+            android:clickable="true"
+            android:paddingRight="4dip" >
+
+            <!--<TextView-->
+                <!--android:id="@+id/home_launcher_select_actionbar_refresh_TEXTVIEW"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_toLeftOf="@+id/home_launcher_select_actionbar_refresh_IMAGEVIEW"-->
+                <!--android:text="@string/COMMON_NEXT"-->
+                <!--android:textAppearance="?android:textAppearanceMedium"-->
+                <!--android:textColor="#ff000000"-->
+                <!--android:textSize="14.0sp"-->
+                <!--android:textStyle="bold" />-->
+
+            <ImageView
+                android:id="@+id/home_launcher_select_actionbar_refresh_IMAGEVIEW"
+                android:layout_width="50.0dip"
+                android:layout_height="65.0dip"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:paddingTop="18.0dip"
+                android:layout_marginLeft="2.0dip"
+                android:src="@drawable/ic_next" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
