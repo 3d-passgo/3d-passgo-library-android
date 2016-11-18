@@ -1,7 +1,7 @@
 # 3d-passgo-library
 An android library providing core functions of 3D PassGo.
 
-3D PassGo is a password scheme in which a user enters a passgo, including lines and dots, on a 3d grid as a password. The size of the 3d grid can be configured by a user, from 1x1x1 to 19x19x19. The origin and details of 3D PassGo can be found at [passgo.net](http://passgo.net).
+3D PassGo is a password scheme in which a user enters a passgo, including lines and dots, on a 3d grid as a password. The size of the 3d grid can be chosen by a user, from 1x1x1 to 19x19x19. The origin and details of 3D PassGo can be found at [passgo.net](http://passgo.net).
 
 This library includes:
 
