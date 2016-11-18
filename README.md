@@ -21,6 +21,9 @@ Details are available at [wiki](https://github.com/3d-passgo/3d-passgo-library-a
 <p align="center">
 <img src="https://github.com/3d-passgo/3d-passgo-library-android/blob/master/images/p_login.jpg">
 <img src="https://github.com/3d-passgo/3d-passgo-library-android/blob/master/images/p_style.jpg">
+</p>
+
+<p>
 <img src="https://github.com/3d-passgo/3d-passgo-library-android/blob/master/images/p_gridsize.jpg">
 <img src="https://github.com/3d-passgo/3d-passgo-library-android/blob/master/images/p_faq.jpg">
 </p>
