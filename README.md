@@ -20,10 +20,12 @@ Details are available at [wiki](https://github.com/3d-passgo/3d-passgo-library-a
 <p>
 <p align="center">
 <img src="https://github.com/3d-passgo/3d-passgo-library-android/blob/master/images/p_login.jpg">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="https://github.com/3d-passgo/3d-passgo-library-android/blob/master/images/p_style.jpg">
 </p>
 
-<p>
+<p align="center">
 <img src="https://github.com/3d-passgo/3d-passgo-library-android/blob/master/images/p_gridsize.jpg">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="https://github.com/3d-passgo/3d-passgo-library-android/blob/master/images/p_faq.jpg">
 </p>
