@@ -3,11 +3,14 @@ An android library providing core functions of 3D PassGo, a 3D graphical passwor
 
 This library includes:
 
-* PassGoView_Login - A View which can be embed into a login activity. It performs the core functions of 3d passgo:
-  * showing a 3d grid
-  * receiving user input
-  * showing passgo as entered
-  * comparing entered passgo with the passgo stored in SharedPreference
+* PassGoView_Login - A View which can be embedded into a login activity. It performs the core functions of 3d passgo:
+  * show a 3d grid
+  * receive user input
+  * allow a user to rotate the 3d grid
+  * allow a user to zoom 3d grid in & out
+  * allow a user to move the 3d grid around
+  * show passgo as entered
+  * compare entered passgo with the passgo stored in SharedPreference
 * ChangePassGoActivity - An activity which allows a user to set up or change his/her passgo by saving the passgo to SharedPreferences.
 * AuthenticateActivity - An activity which requires a user to enter his/her current passgo first, and then call ChangePassGoActivity.java only if success. (a more secure way)
 * PassGoView_Style - An activity where a user can customize passgo styles, such as color, thickness etc.
