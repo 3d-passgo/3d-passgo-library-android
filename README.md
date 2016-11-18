@@ -16,5 +16,8 @@ This library includes:
 With above compoments, android developers should be able to embed "3D PassGo" into an andorid app easily. 
 
 Details are available at [wiki](https://github.com/3d-passgo/3d-passgo-library-android/wiki).
-
-![](https://github.com/3d-passgo/3d-passgo-library-android/blob/master/images/p_login.jpg#left)     ![](https://github.com/3d-passgo/3d-passgo-library-android/blob/master/images/p_style.jpg#center)     ![](https://github.com/3d-passgo/3d-passgo-library-android/blob/master/images/p_gridsize.jpg#right)  
+<p align="center">
+<img src="https://github.com/3d-passgo/3d-passgo-library-android/blob/master/images/p_login.jpg">
+<img src="https://github.com/3d-passgo/3d-passgo-library-android/blob/master/images/p_style.jpg">
+<img src="https://github.com/3d-passgo/3d-passgo-library-android/blob/master/images/p_gridsize.jpg">  
+</p>
