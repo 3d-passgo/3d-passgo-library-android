@@ -1,7 +1,7 @@
 # 3d-passgo-library
 An android library providing core functions of 3D PassGo.
 
-3D PassGo is a password scheme derived from Go game, and is believed to have stronger security and better usablity than tranditional passwords, especially on touch screens. In 3D PassGo, a user draws lines and dots on a 3d grid as a password. The size of the 3d grid is adjustable, from 1x1x1 to 19x19x19, which makes it easy to fine tune the security level. The 3d grid can also be rotated, zoomed, and moved in the 3d space, which brings a very cool 3D user experience. The origin and details of 3D PassGo can be found at [passgo.net](http://passgo.net).
+3D PassGo is a password scheme derived from Go game, and is believed to have stronger security and better usability than tranditional passwords, especially on touch screens. In 3D PassGo, a user draws lines and dots on a 3d grid as a password. The size of the 3d grid is adjustable, from 1x1x1 to 19x19x19, which makes it easy to fine tune the security level. The 3d grid can also be rotated, zoomed, and moved in the 3d space, which brings a very cool 3D user experience. The origin and details of 3D PassGo can be found at [passgo.net](http://passgo.net).
 
 This library includes:
 
