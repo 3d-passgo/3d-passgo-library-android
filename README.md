@@ -1,5 +1,5 @@
 # 3d-passgo-library
-An android library providing core functions of 3D PassGo, a 3D graphical password scheme. ([passgo.net](http://passgo.net)
+An android library providing core functions of 3D PassGo, a 3D graphical password scheme. ([passgo.net](http://passgo.net))
 
 This library includes:
 
@@ -17,4 +17,4 @@ With above compoments, android developers should be able to embed "3D PassGo" in
 
 Details are available at [wiki](https://github.com/3d-passgo/3d-passgo-library-android/wiki).
 
-![](https://github.com/3d-passgo/3d-passgo-library-android/blob/master/images/p_login.jpg)     ![](https://github.com/3d-passgo/3d-passgo-library-android/blob/master/images/p_style.jpg)     ![](https://github.com/3d-passgo/3d-passgo-library-android/blob/master/images/p_gridsize.jpg)  
+![](https://github.com/3d-passgo/3d-passgo-library-android/blob/master/images/p_login.jpg#left)     ![](https://github.com/3d-passgo/3d-passgo-library-android/blob/master/images/p_style.jpg#center)     ![](https://github.com/3d-passgo/3d-passgo-library-android/blob/master/images/p_gridsize.jpg#right)  
