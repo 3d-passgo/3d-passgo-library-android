@@ -3,7 +3,7 @@ An android library providing core functions of 3D PassGo, a 3D graphical passwor
 
 This library includes:
 
-* PassGoView_Login - A View which can be embed into a login activity. It performs the core functions of 3d passgo
+* PassGoView_Login - A View which can be embed into a login activity. It performs the core functions of 3d passgo:
   * showing a 3d grid
   * receiving user input
   * showing passgo as entered
