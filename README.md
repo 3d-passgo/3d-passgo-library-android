@@ -13,7 +13,7 @@ This library includes:
 * PassGoView_Style - An activity where a user can customize passgo styles, such as color, thickness etc.
 * PassGoFAQActivity - A FAQ activity providing common questions/answers regarding passgo.
 
-With above compoments, android developers should be able to embed "3D PassGo" into an andorid app easily as another option for user authentication. 
+With above compoments, android developers should be able to embed "3D PassGo" into an andorid app easily. 
 
 For details regarding how to use this library, please refer to the wiki page.
 
