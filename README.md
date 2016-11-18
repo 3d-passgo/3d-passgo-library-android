@@ -17,16 +17,10 @@ With above compoments, android developers should be able to embed "3D PassGo" in
 
 
 Details are available at [wiki](https://github.com/3d-passgo/3d-passgo-library-android/wiki).
-
+<p>
 <p align="center">
-
-|  <img src="https://github.com/3d-passgo/3d-passgo-library-android/blob/master/images/p_login.jpg"> | <img src="https://github.com/3d-passgo/3d-passgo-library-android/blob/master/images/p_style.jpg">  | <img src="https://github.com/3d-passgo/3d-passgo-library-android/blob/master/images/p_gridsize.jpg">    |  <img src="https://github.com/3d-passgo/3d-passgo-library-android/blob/master/images/p_faq.jpg"> |
-|:-:|:-:|---|---|
-| asdf  | sadfdsaf  | asdfasdf  | asdfdsaf  | 
-
-
-
-     
-
-
+<img src="https://github.com/3d-passgo/3d-passgo-library-android/blob/master/images/p_login.jpg">
+<img src="https://github.com/3d-passgo/3d-passgo-library-android/blob/master/images/p_style.jpg">
+<img src="https://github.com/3d-passgo/3d-passgo-library-android/blob/master/images/p_gridsize.jpg">
+<img src="https://github.com/3d-passgo/3d-passgo-library-android/blob/master/images/p_faq.jpg">
 </p>
