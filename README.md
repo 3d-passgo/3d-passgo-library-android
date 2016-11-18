@@ -26,7 +26,7 @@ This library includes:
 * AuthenticateActivity - An activity which requires a user to authenticate with passgo first, and only if success, then call ChangePassGoActivity.java to allow the user to change his/her passgo
 * PassGoFAQActivity - A FAQ activity providing common questions/answers regarding 3D PassGo.
 
-With above compoments, android developers should be able to embed "3D PassGo" into an andorid app easily as a password alternative. 
+With above compoments, android developers should be able to embed 3D PassGo into an andorid app easily as a password alternative, and then have their users to enjoy the security and usablilty of 3D PassGo. 
 
 More info is available at [wiki](https://github.com/3d-passgo/3d-passgo-library-android/wiki).
 <br>
