@@ -65,12 +65,9 @@ More info is available at [wiki](https://github.com/3d-passgo/3d-passgo-library-
 
 <p align="center">FAQ</p>
 <p align="center">
-<p align="center">Style</p>
-<p align="center">
 <img src="https://github.com/3d-passgo/3d-passgo-library-android/blob/master/images/faq_1.jpg">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="https://github.com/3d-passgo/3d-passgo-library-android/blob/master/images/faq_2.jpg">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="https://github.com/3d-passgo/3d-passgo-library-android/blob/master/images/faq_3.jpg">
-</p>
 </p>
