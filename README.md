@@ -23,8 +23,8 @@ This library includes:
   * grid circle color & thickness
   * background color of the view
 * ChangePassGoActivity - An activity which allows a user to set up or change his/her passgo by saving the passgo to SharedPreferences.
-* AuthenticateActivity - An activity which requires a user to enter his/her current passgo first, and then call ChangePassGoActivity.java only if success. (a more secure way)
-* PassGoFAQActivity - A FAQ activity providing common questions/answers regarding passgo.
+* AuthenticateActivity - An activity which requires a user to authenticate with passgo first, and only if success, then call ChangePassGoActivity.java to allow the user to change his/her passgo
+* PassGoFAQActivity - A FAQ activity providing common questions/answers regarding 3D PassGo.
 
 With above compoments, android developers should be able to embed "3D PassGo" into an andorid app easily. 
 
@@ -60,3 +60,11 @@ Change PassGo
 <img src="https://github.com/3d-passgo/3d-passgo-library-android/blob/master/images/p_change_3.jpg">
 </p>
 
+
+<br>
+<p align="center">
+FAQ
+</p>
+<p align="center">
+<img src="https://github.com/3d-passgo/3d-passgo-library-android/blob/master/images/p_faq.jpg">
+</p>
