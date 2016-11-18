@@ -8,6 +8,7 @@ This library includes:
 * PassGoView_Login - A view which can be embedded into a login activity. It performs the core functions of 3D PassGo:
   * show a 3d grid
   * receive user input
+  * generate passgo encoding as a string
   * allow a user to rotate the 3d grid
   * allow a user to zoom the 3d grid in & out
   * allow a user to move the 3d grid around
