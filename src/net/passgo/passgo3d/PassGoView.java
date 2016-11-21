@@ -19,7 +19,7 @@ public abstract class PassGoView extends View {
 
     protected static String TAG = "PassGoView";
 
-    public int mAllowedTryTime = 5;
+    public int mAllowedTryTime = 30;
     public int mFreezeTime = 30000;
     public int mWrongPassGoLastTime = 500;
 
