@@ -137,11 +137,11 @@ public class ColorPickerView extends View {
 		ALPHA_PANEL_HEIGHT *= mDensity;
 		PANEL_SPACING = PANEL_SPACING * mDensity;
 
-		mDrawingOffset = calculateRequiredOffset();//璁＄畻鎵?闇?浣嶇Щ
+		mDrawingOffset = calculateRequiredOffset();
 
-		initPaintTools();//鍒濆鍖栫粯鍒朵笁鍖哄煙鐨勭敾绗?
+		initPaintTools();
 
-		//Needed for receiving trackball motion events. 璁剧疆鐒︾偣
+		//Needed for receiving trackball motion events.
 		setFocusable(true);
 		setFocusableInTouchMode(true);
 	}
@@ -214,36 +214,33 @@ public class ColorPickerView extends View {
 			mBorderPaint.setColor(mBorderColor);
 			canvas.drawRect(mDrawingRect.left, mDrawingRect.top, rect.right + BORDER_WIDTH_PX, rect.bottom + BORDER_WIDTH_PX, mBorderPaint);
 		}
-		//鏄庡害绾挎?ф覆鏌撳櫒
+
 		if (mValShader == null) {
 			mValShader = new LinearGradient(rect.left, rect.top, rect.left, rect.bottom,
 					0xffffffff, 0xff000000, TileMode.CLAMP);
 		}
-		//HSV杞寲涓篟GB
+
 		int rgb = Color.HSVToColor(new float[]{mHue,1f,1f});
-		//楗卞拰绾挎?ф覆鏌撳櫒
+
 		mSatShader = new LinearGradient(rect.left, rect.top, rect.right, rect.top,
 				0xffffffff, rgb, TileMode.CLAMP);
-		//缁勫悎娓叉煋 = 鏄庡害绾挎?ф覆鏌撳櫒 + 楗卞拰绾挎?ф覆鏌撳櫒
+
 		ComposeShader mShader = new ComposeShader(mValShader, mSatShader, PorterDuff.Mode.MULTIPLY);
 		mSatValPaint.setShader(mShader);
 
 		canvas.drawRect(rect, mSatValPaint);
-		//鍒濆鍖栭?夋嫨鍦嗗潡鐨勪綅缃?
+
 		Point p = satValToPoint(mSat, mVal);
-		//缁樺埗榛戣壊鍐呭渾
+
 		mSatValTrackerPaint.setColor(0xff000000);
 		canvas.drawCircle(p.x, p.y, PALETTE_CIRCLE_TRACKER_RADIUS - 1f * mDensity, mSatValTrackerPaint);
-		//缁樺埗澶栧渾
+
 		mSatValTrackerPaint.setColor(0xffdddddd);
 		canvas.drawCircle(p.x, p.y, PALETTE_CIRCLE_TRACKER_RADIUS, mSatValTrackerPaint);
 
 	}
 
-	/**
-	 * 缁樺埗鍙充晶鑹茬浉閫夋嫨鍖哄煙
-	 * @param canvas
-	 */
+
 	private void drawHuePanel(Canvas canvas){
 
 		final RectF rect = mHueRect;
@@ -256,7 +253,7 @@ public class ColorPickerView extends View {
 					rect.bottom + BORDER_WIDTH_PX,
 					mBorderPaint);
 		}
-		//鍒濆鍖栬壊鐩哥嚎鎬ф覆鏌撳櫒
+
 		if (mHueShader == null) {
 			mHueShader = new LinearGradient(rect.left, rect.top, rect.left, rect.bottom, buildHueColorArray(), null, TileMode.CLAMP);
 			mHuePaint.setShader(mHueShader);
@@ -265,7 +262,7 @@ public class ColorPickerView extends View {
 		canvas.drawRect(rect, mHuePaint);
 
 		float rectHeight = 4 * mDensity / 2;
-		//鍒濆鍖栬壊鐩搁?夋嫨鍣ㄩ?夋嫨鏉′綅缃?
+
 		Point p = hueToPoint(mHue);
 
 		RectF r = new RectF();
@@ -274,15 +271,11 @@ public class ColorPickerView extends View {
 		r.top = p.y - rectHeight;
 		r.bottom = p.y + rectHeight;
 
-		//缁樺埗閫夋嫨鏉?
 		canvas.drawRoundRect(r, 2, 2, mHueTrackerPaint);
 
 	}
 
-	/**
-	 * 缁樺埗搴曢儴閫忔槑搴﹂?夋嫨鍖哄煙
-	 * @param canvas
-	 */
+
 	private void drawAlphaPanel(Canvas canvas){
 
 		if(!mShowAlphaPanel || mAlphaRect == null || mAlphaPattern == null) return;
@@ -301,10 +294,10 @@ public class ColorPickerView extends View {
 		
 		mAlphaPattern.draw(canvas);
 		
-		float[] hsv = new float[]{mHue,mSat,mVal};//hsv鏁扮粍
+		float[] hsv = new float[]{mHue,mSat,mVal};
 		int color = Color.HSVToColor(hsv);
 		int acolor = Color.HSVToColor(0, hsv);
-		//鍒濆鍖栭?忔槑搴︾嚎鎬ф覆鏌撳櫒
+
 		mAlphaShader = new LinearGradient(rect.left, rect.top, rect.right, rect.top,
 				color, acolor, TileMode.CLAMP);
 
@@ -318,7 +311,7 @@ public class ColorPickerView extends View {
 		}
 
 		float rectWidth = 4 * mDensity / 2;
-		//鍒濆鍖栭?忔槑搴﹂?夋嫨鍣ㄩ?夋嫨鏉′綅缃?
+
 		Point p = alphaToPoint(mAlpha);
 
 		RectF r = new RectF();

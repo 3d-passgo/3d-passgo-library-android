@@ -6,6 +6,9 @@ import android.os.CountDownTimer;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.MotionEvent;
+import android.widget.Toast;
+
+import net.passgo.passgo3d.PassGoUtils;
 
 
 public class PassGoView_Login extends PassGoView {
@@ -14,6 +17,10 @@ public class PassGoView_Login extends PassGoView {
     public PassGoView_Login(Context context, AttributeSet attrs) {
 
         super(context, attrs);
+        PassGoUtils mPassGoUtils = new PassGoUtils(context);
+        if (mPassGoUtils.checkIfPassGoNull()){
+            Toast.makeText(context, R.string.no_passgo_yet, Toast.LENGTH_LONG).show();
+        }
 
     }
 

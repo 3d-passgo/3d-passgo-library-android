@@ -21,6 +21,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import net.passgo.passgo3d.PassGoView.DisplayMode;
+import net.passgo.passgo3d.PassGo;
 
 public class ChangePassGoActivity extends Activity {
     private final static String TAG = "ChangePassGoActivity";
@@ -366,6 +367,7 @@ public class ChangePassGoActivity extends Activity {
 
             // save row,col,hei,azimuth,elevation,offset_x,offset_y,scalefactor
             mPassGoUtils.savePassGo(tmp_password, true);
+//            PassGo mPassGo=new PassGo(tmp_password);
             Toast.makeText(this, R.string.PassGo_changed, Toast.LENGTH_SHORT).show();
 //            PassGoGlobalData.setDataBool(mContext, PassGoGlobalData.IS_OFFICIAL_PASSGO, true);
             int row = PassGoGlobalData.getDataInt(mContext,

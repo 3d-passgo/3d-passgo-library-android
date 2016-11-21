@@ -7,9 +7,6 @@
     <string name="faq_question_15">What is 3D PassGo?</string>
     <string name="faq_answer_15">  3D PassGo extends PassGo to a 3D space: a user draws dots and/or lines on a 3D grid. The 3D grid can be optionally rotated and zoomed in or out to further improve the security. </string>
 
-    <string name="faq_question_20">What is \"3D PassGo Lock Screen\"?</string>
-    <string name="faq_answer_20">  \"3D PassGo Lock Screen\" is a lock screen Android App which implements 3D PassGo as its main password scheme. </string>
-
     <string name="faq_question_30">Is PassGo secure?</string>
 	<string name="faq_answer_30">  In PassGo, the security can be fine-tuned by adjusting the grid size which is available from 1x1x1 to 19x19x19.
 	    In addition, PassGo allows multiple strokes, namely you can draw multiple dots and lines. The larger the grid size is and the larger the stroke
@@ -63,6 +60,7 @@
     <string name="DRAW_PATTERN_HELP_SUCCESS">Your PassGo will be saved as</string>
     <string name="DRAW_PATTERN_TITLE">Draw PassGo</string>
     <string name="PassGo_changed">PassGo changed</string>
+    <string name="no_passgo_yet">PassGo has not been set up yet!</string>
 
 
 

@@ -1,6 +1,6 @@
 package net.passgo.passgo3d;
 
-import android.app.ActionBar;
+//import android.app.ActionBar;
 import android.app.Activity;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -12,9 +12,7 @@ import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
-//import android.widget.RelativeLayout;
 import android.widget.SeekBar;
-//import android.widget.TextView;
 import android.widget.SeekBar.OnSeekBarChangeListener;
 import android.widget.Toast;
 
@@ -49,7 +47,6 @@ public class PassGoStyleActivity extends Activity
     private boolean isShowGrid;
 
     private int mPatternLineColor;
-    private int mPatternLineColor_dot;
 
     private boolean bg_color_changed = false;
 
@@ -65,7 +62,6 @@ public class PassGoStyleActivity extends Activity
     private ColorPickerView mColorPicker_dot;
     private ColorPickerPanelView mOldColor_dot;
     private ColorPickerPanelView mNewColor_dot;
-    private boolean passGolinecolor = false;
     private int mPatternLineThickness = -1;
     private int mPatternDotThickness = -1;
     private int mGridLineThickness = -1;
@@ -94,22 +90,7 @@ public class PassGoStyleActivity extends Activity
         isShowCircles = PassGoGlobalData.getDataBool(mContext, PassGoGlobalData.SHOW_GRID_CIRCLE, true);
         isShowGrid = PassGoGlobalData.getDataBool(mContext, PassGoGlobalData.SHOW_GRID_LINE, true);
 
-
-        int callingActivity = getIntent().getIntExtra("calling-activity", 0);
-        switch (callingActivity) {
-            case PassGoGlobalData.PASSGO_LINE_COLOR_CODE:
-                passGolinecolor = true;
-
-                break;
-            case PassGoGlobalData.PASSGO_DOT_COLOR_CODE:
-                passGolinecolor = false;
-
-                break;
-        }
-        passGolinecolor = true;
-
-        setActionBarLayout(passGolinecolor);
-
+//        setActionBarLayout();
 
         //newly adding here
         mPassGoView_Style = (PassGoView_Style) findViewById(R.id.PassGoView_Style);
@@ -164,14 +145,12 @@ public class PassGoStyleActivity extends Activity
         });
 
 
-//		button_line_color.setTextColor(Color.BLACK);
         button_line_color.setBackgroundColor(Color.parseColor("#000080"));
 
         button_line_color.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
                 reset_color_buttons(GO_LINE);
-//				button_line_color.setTextColor(Color.BLACK);
                 button_line_color.setBackgroundColor(Color.parseColor("#000080"));
                 mThicknesSeekBar.setEnabled(true);
                 if (mPatternLineThickness >= 0) {
@@ -306,7 +285,13 @@ public class PassGoStyleActivity extends Activity
             }
         });
 
-        init(passGolinecolor);
+//        init();
+
+        mPatternLineColor = PassGoGlobalData.getDataInt(mContext, PassGoGlobalData.PASSGO_LINE_COLOR, Color.RED);
+        mColorPicker = (ColorPickerView) findViewById(R.id.color_picker_view);
+
+        mColorPicker.setOnColorChangedListener(this);
+        mColorPicker.setColor(mPatternLineColor, true);
 
         init_seekbar();
 
@@ -368,41 +353,14 @@ public class PassGoStyleActivity extends Activity
 
     }
 
-
-    private void init(boolean passGolinecolor) {
-        // TODO Auto-generated method stub
-        // To fight color banding.
-        final boolean passgolinecolor = passGolinecolor;
-        getWindow().setFormat(PixelFormat.RGBA_8888);
-
-
-        if (passgolinecolor) {
-            mPatternLineColor = PassGoGlobalData.getDataInt(mContext, PassGoGlobalData.PASSGO_LINE_COLOR, Color.WHITE);
-            mColorPicker = (ColorPickerView) findViewById(R.id.color_picker_view);
-
-            mColorPicker.setOnColorChangedListener(this);
-            mColorPicker.setColor(mPatternLineColor, true);
-        } else {
-            mPatternLineColor_dot = PassGoGlobalData.getDataInt(mContext, PassGoGlobalData.PASSGO_DOT_COLOR, Color.WHITE);
-            mColorPicker_dot = (ColorPickerView) findViewById(R.id.color_picker_view);
-
-            mColorPicker_dot.setOnColorChangedListener(this);
-            mColorPicker_dot.setColor(mPatternLineColor_dot, true);
-            mOldColor_dot.setColor(mPatternLineColor_dot);
-            mNewColor_dot.setColor(mPatternLineColor_dot);
-
-        }
-
-    }
-
-    private void setActionBarLayout(boolean passGolinecolor) {
-        ActionBar actionBar = getActionBar();
-        if (actionBar != null) {
-            actionBar.setDisplayShowHomeEnabled(false);
-            actionBar.setDisplayShowTitleEnabled(false);
-            actionBar.setDisplayHomeAsUpEnabled(false);
-        }
-    }
+//    private void setActionBarLayout() {
+//        ActionBar actionBar = getActionBar();
+//        if (actionBar != null) {
+//            actionBar.setDisplayShowHomeEnabled(false);
+//            actionBar.setDisplayShowTitleEnabled(false);
+//            actionBar.setDisplayHomeAsUpEnabled(false);
+//        }
+//    }
 
     private void goToPreStep() {
         // TODO Auto-generated method stub

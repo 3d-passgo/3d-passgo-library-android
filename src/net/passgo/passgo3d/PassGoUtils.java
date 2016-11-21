@@ -4,10 +4,13 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
 import android.preference.PreferenceManager;
+import android.util.Log;
+import android.widget.Toast;
 
 public class PassGoUtils {
 	private Context mContext;
 	private SharedPreferences preference;
+	private final String TAG="PassGoUtils";
 
 	 public PassGoUtils(Context context) {
 	        mContext = context;
@@ -37,9 +40,13 @@ public class PassGoUtils {
 
     public boolean checkIfCorrectPassGo(String password, boolean isOfficial) {
     	String stored = getPassGo(isOfficial);
-    	if(stored != null){
-    		System.out.println(isOfficial + " stored is " + stored);
-    		return  password.contains(stored)?true:false;
+    	if(stored != null && !password.isEmpty() ){
+//    		System.out.println(isOfficial + " stored is " + stored);
+//    		return  password.contains(stored)?true:false;
+
+			Log.i(TAG,"password is " + password +"  so it is "+ String.valueOf(password.equals(stored)));
+
+			return  password.equals(stored)?true:false;
     	}
     	return false;
     }
@@ -54,7 +61,12 @@ public class PassGoUtils {
     			return  true;
     		}
     	}
-    	return false;
+		return false;
     }
 
+
+	public boolean checkIfPassGoNull() {
+		String stored = getPassGo(true);
+		return  (stored==null || stored.isEmpty())?true:false;
+	}
 }

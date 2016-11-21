@@ -218,6 +218,8 @@ public abstract class PassGoView extends View {
         if (mPassGoListener != null) {
             mPassGoListener.onPassGoDetected(mPassword, mIfWrongPassGo, mIfCorrectPassGo);
         }
+//        PassGo mPassGo = new PassGo(mPassword);
+//        mPassGo.readablecode();
     }
 
 
