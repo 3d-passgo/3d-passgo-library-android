@@ -39,3 +39,4 @@ More info is available at [wiki](https://github.com/3d-passgo/3d-passgo-library-
 </p>
 
 
+added a test line for git master
